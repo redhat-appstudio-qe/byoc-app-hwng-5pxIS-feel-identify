@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: epjn
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-hdgs-tenant/byoc-app-hwng/epjn@sha256:046f7ed6e2382e73284044c36e10e563b9c6146b7f6a1ab48a4b0db0d4ff42dd
         name: my-java-quarkus
         ports:
         - containerPort: 8081
